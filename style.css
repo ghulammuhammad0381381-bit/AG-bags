@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f3ed;
+    color: #49382e;
+}
+
+header {
+    background-color: #e8d8c7;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+header p {
+    margin: 10px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #49382e;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#home {
+    padding: 100px 20px;
+    background-color: #f1e5d8;
+}
+
+#home p {
+    margin: 20px;
+    font-size: 18px;
+}
+
+#shop div {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 12px;
+}
+
+#shop img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #795b46;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #49382e;
+}
+
+#about {
+    background-color: #e8d8c7;
+    line-height: 1.8;
+}
+
+input, textarea {
+    padding: 12px;
+    width: 250px;
+}
+
+footer {
+    background-color: #49382e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
