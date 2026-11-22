@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         try {
 
-            let response = await fetch("/order", {
+            let response = await fetch("/api/order", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
